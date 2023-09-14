@@ -12,13 +12,13 @@ class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.master.geometry("500x400")
-        # top
+        # top_frame
         frame_top = tk.Frame(self.master, borderwidth=2, relief='solid')
-        # 左側のフレーム
+        # left_frame
         frame_left = tk.Frame(self.master)
-        # 右側のフレーム
+        # right_frame
         frame_right = tk.Frame(self.master)
-        # bottom
+        # bottom_frame
         frame_bottom_left = tk.Frame(
             self.master, borderwidth=2, relief='solid')
         frame_bottom_right = tk.Frame(
