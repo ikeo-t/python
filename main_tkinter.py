@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from functools import partial
-
+import os
 from sub.img_resize import resize_tra
 from sub.img_getter import image_get
 
